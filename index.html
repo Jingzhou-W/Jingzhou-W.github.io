@@ -1,107 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>HD Tex</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Link to external CSS -->
-    <link rel="stylesheet" href="styles.css">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>HD Tex</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Navigation Bar -->
-    <nav>
-        <div class="logo">
-            <a href="#">HD Tex</a>
-        </div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#services">Our Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="burger">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </nav>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo">
+      <a href="#">HD Tex</a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home" id="nav-home">Home</a></li>
+      <li><a href="#about" id="nav-about">About Us</a></li>
+      <li><a href="#services" id="nav-services">Our Services</a></li>
+      <li><a href="#contact" id="nav-contact">Contact</a></li>
+    </ul>
+    <!-- Language Selector (New Feature) -->
+    <div class="language-selector">
+      <select id="language-select">
+        <option value="en">English</option>
+        <option value="zh">中文</option>
+        <option value="ar">العربية</option>
+      </select>
+    </div>
+    <div class="burger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Welcome to HD Tex</h1>
-            <h1>Since 2000</h1>
-            <p>Your trusted partner in global textile trading.</p>
-            <a href="#about" class="btn">Learn More</a>
-        </div>
-    </section>
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1 id="hero-title1">Welcome to HD Tex</h1>
+      <h1 id="hero-title2">Since 2000</h1>
+      <p id="hero-description">Your trusted partner in global textile trading.</p>
+      <a href="#about" class="btn" id="hero-btn">Learn More</a>
+    </div>
+  </section>
 
-    <!-- About Us Section -->
-    <section id="about" class="about">
-        <h2>About Us</h2>
-        <div class="about-content">
-            <div class="about-text">
-                <p>
-                    HD Tex is a leading company specializing in international textile trading <strong>since 2000</strong>. With a global presence and a commitment to excellence, we bridge markets and deliver unparalleled value to our partners.
-                </p>
-            </div>
-            <div class="about-image">
-                <img src="images/about.jpg" alt="About Us">
-            </div>
-        </div>
-    </section>
+  <!-- About Us Section -->
+  <section id="about" class="about">
+    <h2 id="about-title">About Us</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p id="about-content">
+          HD Tex is a leading company specializing in international textile trading <strong>since 2000</strong>. With a global presence and a commitment to excellence, we bridge markets and deliver unparalleled value to our partners.
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="images/about.jpg" alt="About Us">
+      </div>
+    </div>
+  </section>
 
-    <!-- Our Services Section -->
-    <section id="services" class="services">
-        <h2>Our Services</h2>
-        <div class="services-content">
-            <div class="service-item">
-                <i class="fas fa-globe"></i>
-                <h3>International Textile Trading</h3>
-                <p>Connecting businesses worldwide with efficient and reliable textile trading services.</p>
-            </div>
-            <div class="service-item">
-                <i class="fas fa-cogs"></i>
-                <h3>Technology Integration</h3>
-                <p>Offering solutions to enhance your supply chain and streamline operations.</p>
-            </div>
-            <div class="service-item">
-                <i class="fas fa-chart-line"></i>
-                <h3>Consulting</h3>
-                <p>Providing expert advice to help your business thrive in the global textile market.</p>
-            </div>
-        </div>
-    </section>
+  <!-- Our Services Section -->
+  <section id="services" class="services">
+    <h2 id="services-title">Our Services</h2>
+    <div class="services-content">
+      <div class="service-item">
+        <i class="fas fa-globe"></i>
+        <h3 id="service1-title">International Textile Trading</h3>
+        <p id="service1-content">
+          Connecting businesses worldwide with efficient and reliable textile trading services.
+        </p>
+      </div>
+      <div class="service-item">
+        <i class="fas fa-cogs"></i>
+        <h3 id="service2-title">Technology Integration</h3>
+        <p id="service2-content">
+          Offering solutions to enhance your supply chain and streamline operations.
+        </p>
+      </div>
+      <div class="service-item">
+        <i class="fas fa-chart-line"></i>
+        <h3 id="service3-title">Consulting</h3>
+        <p id="service3-content">
+          Providing expert advice to help your business thrive in the global textile market.
+        </p>
+      </div>
+    </div>
+  </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <div class="contact-content">
-            <form action="#" method="post">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
-            <div class="contact-info">
-                <p><i class="fas fa-map-marker-alt"></i> JINSHENG BUILDING, NO. 53 SOUTH HAILING ROAD, DONGTAI, JIANGSU, CHINA</p>
-                <p><i class="fas fa-envelope"></i>info@hdtexes.com</p>
-                <p><i class="fas fa-envelope"></i> 0086-515-85213779</p>
-            </div>
-        </div>
-    </section>
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2 id="contact-title">Contact Us</h2>
+    <div class="contact-content">
+      <form action="#" method="post">
+        <input type="text" id="contact-name" name="name" placeholder="Your Name" required>
+        <input type="email" id="contact-email" name="email" placeholder="Your Email" required>
+        <textarea name="message" id="contact-message" rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn" id="contact-btn">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <p id="contact-info-address">
+          <i class="fas fa-map-marker-alt"></i> JINSHENG BUILDING, NO. 53 SOUTH HAILING ROAD, DONGTAI, JIANGSU, CHINA
+        </p>
+        <p id="contact-info-email">
+          <i class="fas fa-envelope"></i> info@hdtexes.com
+        </p>
+        <p id="contact-info-phone">
+          <i class="fas fa-phone"></i> 0086-515-85213779
+        </p>
+      </div>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 DONGTAI HONGDA INDUSTRIAL CO.,LTD. All rights reserved.</p>
-    </footer>
+  <!-- Footer -->
+  <footer>
+    <p id="footer-text">&copy; 2024 DONGTAI HONGDA INDUSTRIAL CO.,LTD. All rights reserved.</p>
+  </footer>
 
-    <!-- External JS -->
-    <script src="script.js"></script>
-    <!-- Font Awesome CDN for icons -->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <!-- External JS -->
+  <script src="script.js"></script>
+  <!-- Font Awesome CDN for icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
 </html>
