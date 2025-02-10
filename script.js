@@ -59,8 +59,8 @@ document.addEventListener('DOMContentLoaded', function() {
         footer: "© 2024 DONGTAI HONGDA INDUSTRIAL CO.,LTD. All rights reserved."
       },
       zh: {
-        nav: { home: "主页", about: "关于我们", services: "我们的服务", contact: "联系" },
-        hero: { title1: "欢迎来到 HD Tex", title2: "自2000年起", description: "您可信赖的全球纺织品贸易伙伴。", btn: "了解更多" },
+        nav: { home: "主页", about: "关于我们", services: "我们的服务", contact: "联系我们" },
+        hero: { title1: "欢迎来到 HD 纺织", title2: "Since 2000", description: "您可信赖的全球纺织品贸易伙伴。", btn: "了解更多" },
         about: { title: "关于我们", content: "HD Tex 是一家领先的公司，专注于国际纺织品贸易，自2000年起在全球范围内开展业务，致力于卓越的品质，为合作伙伴提供无与伦比的价值。" },
         services: {
           title: "我们的服务",
@@ -71,9 +71,9 @@ document.addEventListener('DOMContentLoaded', function() {
         contact: { 
           title: "联系我们", 
           form: { name: "您的姓名", email: "您的邮箱", message: "您的留言", btn: "发送信息" }, 
-          info: { address: "中国江苏省东台市南海陵路53号金胜大厦", email: "info@hdtexes.com", phone: "0086-515-85213779" }
+          info: { address: "中国江苏省东台市海陵南路53号金盛大厦", email: "info@hdtexes.com", phone: "0086-515-85213779" }
         },
-        footer: "© 2024 东台宏达实业有限公司 版权所有。"
+        footer: "© 2024 DONGTAI HONGDA INDUSTRIAL CO.,LTD. All rights reserved."
       },
       ar: {
         nav: { home: "الرئيسية", about: "من نحن", services: "خدماتنا", contact: "اتصل بنا" },
